@@ -21,6 +21,15 @@ button{
     cursor: pointer;
 }
 
+.gray{
+    color: rgb(158, 158, 158);
+}
+
+.blue{
+    color: rgb(1, 97, 255);
+}
+
+
 /* --HEADER-- */
 
 #header{
@@ -125,4 +134,97 @@ button{
     max-height: 100%;
     position: absolute;
     bottom: -60px;
+}
+
+/* --PIANO-BUSINESS */
+.piano-business{
+    margin: 150px auto;
+    width: 60%;
+    height: auto;
+}
+
+
+.titolo-piano-business{
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.piano-business span{
+    padding-right: 40px;
+    color: rgb(85, 83, 83);
+}
+
+.piano-business input{
+    margin: 4px;
+    color: rgb(85, 83, 83);
+}
+
+/* --CARD-PIANO-BUSINESS */
+.card {
+    width: calc(100vh / 3 );
+    border: 1px solid rgb(158, 158, 158);
+    height: 80vh; 
+    font-size: 12px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.header-card{
+    border-bottom: 1px solid rgb(158, 158, 158);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* MARGIN CARD */
+
+.card .gray {
+    margin-bottom: 30px;
+}
+
+.card .block{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+
+.card h3,
+.card h5,
+.card button,
+.card p {
+    margin: 10px
+}
+
+.card button{
+    margin-top: 20px
+}
+
+
+.hr{
+    border: 0.5px solid rgb(158, 158, 158);
+    margin: 30px 200px 0 10px;
+}
+
+.card h5{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.card h3{
+    font-size: 20px
+}
+
+/* COLUMN CARD */
+
+.column-card{
+    border: 1px solid black;
+    width: 100%;
+    height: calc(100vh / 3 - 40px);
+    margin-top: 50px;
 }
