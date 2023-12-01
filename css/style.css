@@ -107,7 +107,7 @@ button{
     min-height: 400px;
 }
 
-.jumbo-big-container{
+.big-container{
     max-width: 70%;
     margin: 0 auto;
 }
@@ -298,6 +298,7 @@ button{
 
 .operations-card img{
     width: 100%;
+    text-align: center;
 }
 
 .operations-card .bottom *{
@@ -444,3 +445,38 @@ button{
     justify-content: space-between;
     padding: 40px 0;
 }
+
+/* FOOTER */
+#footer{
+    background-color: black;
+    color: white;  
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    min-height: 400px;
+}
+
+.container-footer ul{
+    list-style-type: none;
+}
+
+.container-footer h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.container-footer li{
+    padding: 6px 0;
+}
+
+.container-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
