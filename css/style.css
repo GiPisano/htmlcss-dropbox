@@ -37,6 +37,10 @@ button{
     width: 40%;
 }
 
+.w-30{
+    width: 30%;
+}
+
 .h-50{
     height: 50%;
 }
@@ -319,7 +323,7 @@ button{
     display: flex;
     /* debug */
     border: 1px solid black;
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 .big-square{
@@ -386,4 +390,29 @@ button{
 
 .light-blue{
     background-color: rgb(108, 208, 231);
+}
+
+/* --PROVA-GRATIS-- */
+
+.prova-gratis{
+    display: flex;
+    background-color: rgb(180, 208, 231);
+    height: 300px;
+    vertical-align: middle;
+}
+
+.prova{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 100px 0;
+}
+
+.prova h3{
+    font-size: 1.5rem;
+    color: rgb(98, 9, 43);
+}
+
+.prova button{
+    padding: 10px 10px;
 }
