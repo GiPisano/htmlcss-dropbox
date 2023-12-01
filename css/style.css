@@ -263,6 +263,10 @@ button{
 
 /* OPERATION-DROPBOX */
 
+.operations-dropbox{
+    margin: 50px 0;
+}
+
 .container-operations-card{
     display: flex;
     justify-content: space-between;
@@ -270,6 +274,10 @@ button{
     gap: 20px;
     /* debug */
     border: 1px solid black;
+}
+
+.operations-dropbox .title{
+    margin: 30px 0;
 }
 
 .operations-card{
@@ -292,3 +300,90 @@ button{
     font-size: 20px;
 }
 
+/* info-dropbox */
+
+.info-dropbox{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.info-dropbox h3{
+    font-size: 1.5em;
+}
+
+/*  container-box-colorful */
+
+.container-box-colorful{
+    height: 400px;
+
+    display: flex;
+    /* debug */
+    border: 1px solid black;
+    margin: 50px 0;
+}
+
+.big-square{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px solid black;
+}
+
+.small-square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    border: 1px solid black;
+}
+
+.small-square img{
+    max-width: 50%;
+    max-height: 50px;
+    filter: invert(1);
+}
+
+.container-box-colorful .center-square {
+   padding: 10px;
+}
+
+.container-box-colorful .center-square img {
+    width: 40%;
+ }
+
+/* color container-box-colorful */
+
+.green{
+    background-color: rgb(162, 211, 155) ;
+}
+
+.bordeaux{
+    background-color: rgb(98, 9, 43);
+}
+
+.turquoise{
+    background-color: rgb(0, 147, 206);
+}
+
+.light-red{
+    background-color: rgb(255, 29, 28);
+}
+
+.red{
+    background-color: rgb(213, 0, 32);
+}
+
+.blue-square{
+    background-color: rgb(13, 36, 129);
+}
+
+.yellow{
+    background-color: rgb(255, 216, 48);
+}
+
+.light-blue{
+    background-color: rgb(108, 208, 231);
+}
