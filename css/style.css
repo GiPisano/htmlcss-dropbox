@@ -45,6 +45,10 @@ button{
     height: 50%;
 }
 
+.hr{
+    border: 0.5px solid rgb(158, 158, 158);
+}
+
 /* --HEADER-- */
 
 #header{
@@ -225,7 +229,7 @@ button{
     margin-top: 20px
 }
 
-.hr{
+.card .hr{
     border: 0.5px solid rgb(158, 158, 158);
     margin: 30px 200px 0 10px;
 }
@@ -398,10 +402,10 @@ button{
     display: flex;
     background-color: rgb(180, 208, 231);
     height: 300px;
-    vertical-align: middle;
 }
 
 .prova{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-self: center;
@@ -415,4 +419,28 @@ button{
 
 .prova button{
     padding: 10px 10px;
+}
+
+/* QUESTIONS */
+
+.questions{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-question {
+   width: 100%;
+   height: auto;
+}
+
+.container-question h3{
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
 }
