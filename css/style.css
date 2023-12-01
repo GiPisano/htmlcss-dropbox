@@ -29,6 +29,14 @@ button{
     color: rgb(1, 97, 255);
 }
 
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width: 40%;
+}
+
 
 /* --HEADER-- */
 
@@ -135,7 +143,7 @@ button{
 /* SECTION-MAIN */
 
 .piani-business{
-    min-height: 100vh ;
+    
     max-width: 800px ;
     margin: 0 auto;
 
@@ -144,7 +152,7 @@ button{
 }
 
 .container{
-    margin: 100px 10px;
+    margin: 50px 0;
      /* duebug */
      border: 1px solid green;
 }
@@ -155,7 +163,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 10px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -163,6 +171,14 @@ button{
     border: 1px solid blue;
     min-height: 800px;
     width: calc(100% / 3 - 10px);
+}
+
+.column-card{
+    height: calc(100% / 3 - 10px);
+    width: 100%;
+    /* duebug */
+    border: 1px solid blue;
+    margin-top: 15px;
 }
 
 .header-card{
@@ -174,7 +190,7 @@ button{
 /* MARGIN CARD */
 
 .intro-piani-business *{
-    margin: 30px 0 30px 10px;
+    margin: 30px 0;
 }
 
 .card .gray {
@@ -198,7 +214,6 @@ button{
     margin-top: 20px
 }
 
-
 .hr{
     border: 0.5px solid rgb(158, 158, 158);
     margin: 30px 200px 0 10px;
@@ -213,3 +228,28 @@ button{
     font-size: 20px
 }
 
+/* partner-sectioin */
+.container-partner{
+    display: flex;
+    margin: 100px 0;
+    /* debug */
+    border: 1px solid black;
+    
+}
+.container-partner img{
+    width: 100%;
+}
+
+.container-partner .btn{
+    padding: 8px 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.container-partner .right p{
+    margin: 20px 0;
+}
+
+.container-partner .right {
+    padding: 30px 40px;
+}
