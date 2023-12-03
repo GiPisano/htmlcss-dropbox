@@ -225,15 +225,19 @@ p{
     text-align: center;
 }
 
+/* COLUMN CARD */
+
 .column-card{
     width: 100%;
     border: 1px solid rgb(158, 158, 158);
     margin-top: 15px;
+    min-height: 250px;
 }
 
 .column-card .flex{
     display: flex;
 }
+
 
 /* MARGIN CARD */
 
