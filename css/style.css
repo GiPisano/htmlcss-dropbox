@@ -554,8 +554,10 @@ p{
     display: block;
 }
 
+.button:hover,
 button:hover{
     box-shadow: 0 0 11px black; 
+    opacity: 0.8;
 }
 
 #header a:hover{
