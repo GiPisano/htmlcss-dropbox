@@ -12,7 +12,9 @@ body{
 
 button{
     border: 0;
+    cursor: pointer;
 }
+
 
 /* UTILS */
 
@@ -41,6 +43,10 @@ button{
 
 .w-30{
     width: 30%;
+}
+
+.w-70{
+    width: 70%;
 }
 
 .h-50{
@@ -72,6 +78,8 @@ p{
     top: 0;
     z-index: 1;
     background-color: white;
+    box-shadow: 5px 5px 8px #888888;
+
 }
 
 #header a {
@@ -96,6 +104,10 @@ p{
     gap: 10px;
 }
 
+#header img{
+    height: 20px;
+}
+
 /* HEADER-RIGHT */
 
 .header-right{
@@ -105,6 +117,7 @@ p{
 
 #header .button{
     font-size: 15px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 /* --MAIN-- */
@@ -206,17 +219,20 @@ p{
     width: calc(100% / 3 - 10px);
 }
 
+.header-card{
+    border-bottom: 1px solid rgb(158, 158, 158);
+    padding: 10px 0;
+    text-align: center;
+}
+
 .column-card{
-    height: calc(100% / 3 - 10px);
     width: 100%;
     border: 1px solid rgb(158, 158, 158);
     margin-top: 15px;
 }
 
-.header-card{
-    border-bottom: 1px solid rgb(158, 158, 158);
-    padding: 10px 0;
-    text-align: center;
+.column-card .flex{
+    display: flex;
 }
 
 /* MARGIN CARD */
@@ -242,8 +258,9 @@ p{
     margin: 10px
 }
 
-.card button{
-    margin-top: 20px
+.card .button{
+    margin: 30px 10px;
+    text-align: center;
 }
 
 .card .hr{
@@ -266,6 +283,7 @@ p{
     display: flex;
     margin: 100px 0;
 }
+
 .container-partner img{
     width: 100%;
 }
@@ -470,6 +488,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+    font-weight: bold;
 }
 
 /* FOOTER */
@@ -518,4 +537,26 @@ p{
 #footer .flex *{
     padding: 40px 8px 40px 0;
 }
+
+
+/* hover */
+
+.hover-answer{
+    display: none;
+    padding-bottom: 40px;
+}
+
+.flex:hover + .hover-answer{
+    display: block;
+}
+
+button:hover{
+    box-shadow: 0 0 11px black; 
+}
+
+#header a:hover{
+    box-shadow: 0 37px black; 
+}
+
+
 
